@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --white: white;
+    --light-greyish-white: hsl(225, 8%, 91%);
+    --light-black: hsl(240, 2%, 11%);
+
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    margin-bottom: 70px;
+}
+
+.navlink a{
+    margin: 0 20px;
+    color: var(--Grayish-Blue);
+}
+
+.login{
+    color: var(--white) !important;
+    padding: 10px 30px;
+    background-color: var(--Soft-Red);
+    border-radius: 5px;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.herodiv{
+    width: 35%;
+}
+
+.herodiv h1{
+    font-size: 50px;
+}
+
+.herodiv p{
+    font-size: 20px;
+    color: var(--Grayish-Blue);
+    margin: 20px 0 30px;
+}
+
+.herolink{
+    
+}
+
+.herolink-blue{
+    background-color: var(--Soft-Blue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.herolink-grey{
+    background-color: var(--light-greyish-white);
+    color: var(--light-black);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
