@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 :root{
@@ -65,10 +65,6 @@ a{
     margin: 20px 0 30px;
 }
 
-.herolink{
-    
-}
-
 .herolink-blue{
     background-color: var(--Soft-Blue);
     color: var(--white);
@@ -82,4 +78,243 @@ a{
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+#features{
+    text-align: center;
+    padding: 30px 70px 20px; 
+}
+
+.features1, .frequent{
+    width: 43%;
+    margin: 20px auto;
+}
+
+.features1 h1, .frequent h1, .joined h1{
+    font-size: 40px;
+}
+
+.features1 p, .frequent p, .joined p{
+   font-size: 20px;
+   margin: 20px 0 40px;   
+}
+
+.featureslink{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   
+    
+}
+
+#bookmark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;   
+}
+
+.bookmarkwrt{
+    width: 35%;
+}
+
+.bookmarkwrt h1{
+    font-size: 40px;
+}
+
+.bookmarkwrt p{
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.bookmarklink{
+    font-size: 20px;
+    background-color: var(--Soft-Blue);
+    padding: 10px 20px;
+    border-radius: 5px;    
+}
+
+#extension{
+    text-align: center;
+    padding: 30px 70px 40px;
+}
+
+.extensionhead{
+    width: 55%;
+    margin: 20px auto;
+}
+
+.extensionhead h1{
+    font-size: 40px;    
+}
+
+.extensionhead p{
+    font-size: 20px;
+    margin: 30px 70px;
+}
+
+.extensionlink{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    
+}
+
+.extensionlogo{
+    
+    border: 10px;
+    box-shadow: 5px 5px 10px var(--light-black);
+    padding: 20px 0px;
+    line-height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.extensionlogo1{
+    
+    border: 10px;
+    box-shadow: 5px 5px 10px var(--light-black);
+    padding: 20px 0px;
+    line-height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    
+}
+
+.extensionlogo2{
+    
+    border: 10px;
+    box-shadow: 5px 5px 10px var(--light-black);
+    padding: 20px 0px;
+    line-height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+    
+}
+
+.extensionimg{
+    width: 40%;
+}
+
+.extensionlogo a{
+    background-color: var(--Soft-Blue);
+    border-radius: 5px;
+    padding: 5px 10px; 
+    color: var(--white);  
+}
+
+.extensionlogo1 a{
+    background-color: var(--Soft-Blue);
+    border-radius: 5px;
+    padding: 5px 10px; 
+    color: var(--white);  
+}
+
+.extensionlogo2 a{
+    background-color: var(--Soft-Blue);
+    border-radius: 5px;
+    padding: 5px 10px; 
+    color: var(--white);  
+}
+
+.extensionlogo p{
+    padding: 0 0 70px;
+}
+
+#question{
+    text-align: center;
+    padding: 1cm 2cm 5cm; 
+}
+
+.browser{ 
+    max-width: 30em;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+.browser1{
+    margin: 20px auto;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.frequent{
+    margin: 6cm auto 2cm;
+}
+
+#contact{
+    text-align: center;
+    padding: 30px 70px 60px;
+    background-color: var(--Soft-Blue);
+}
+
+.joined{
+    width: 43%;
+    margin: 20px auto 50px;
+    color: var(--white);
+}
+
+.joined h1{
+    margin-bottom: 20px;
+}
+
+.enter{
+    justify-content: space-between;
+    width: 70%; 
+    margin: 0 auto;  
+   
+}
+
+.enter1{
+    background-color: var(--white);
+    color: var(--Grayish-Blue);
+    border-radius: 5px;
+    padding: 20px 80px 20px 20px;
+    font-size: 20px;
+}
+
+.enter2{
+    background-color: var(--Soft-Red);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+#bottom{
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.bottomdiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 20px 0 0;
+}
+
+.bottomdiv img{
+    background-color: var(--white);
+}
+
+.bottomdiv a{
+    color: var(--white);
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.icon a{
+    padding: 0 20px;
+    color: var(--white); 
+    font-size: 30px;
+}
+
 
