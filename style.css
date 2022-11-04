@@ -317,4 +317,265 @@ a{
     font-size: 30px;
 }
 
+@media screen and (max-width:992px) {
+    #navbar, #hero, #features, #bookmark, #extension{
+        padding: 50px;
+       } 
+    .heroimg{
+        width: 55%;
+    }
+
+    .herodiv, .bookmarkwrt{
+        width: 50%;
+    }
+
+    .herodiv h1, .features1 h1, .bookmarkwrt h1, .extensionhead h1{
+        font-size: 30px;
+    }
+
+    .herodiv p, .features1 p, .bookmarkwrt p, .extensionhead p{
+        font-size: 20px;
+    }
+
+    .features1{
+        width: 60%;
+    }
+
+    .bookmarkimg{
+        width: 45%;
+    }
+
+    .extensionhead{
+        width: 90%;
+    }
+    
+    .extensionlink{ 
+        display: grid; 
+        grid-template-columns: repeat( 1fr); 
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .extensionlogo, .extensionlogo1, .extensionlogo2{
+        width: 100%;
+    }
+
+    .extensionimg1{     
+        width: 100%;
+    }
+
+    .frequent{
+        width: 60%;
+    }
+
+
+    .joined{
+        width: 80%;
+    }
+
+    .joined h1{
+        font: 40px;
+    }
+
+    
+    .enter{
+        justify-content: space-between;
+        width: 75%;
+    }
+
+    .bottomdiv{
+        gap: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    #navbar, #hero, #features, #bookmark, #extension{
+        padding: 30px;
+       }
+
+    #hero{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .herodiv, .bookmarkwrt {
+        width: 70%;
+    }
+
+    .features1 {
+        width: 75%;
+    }
+
+    .featureslink{
+        display: grid;
+        gap: 20px;
+    }
+
+    #bookmark{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bookmarkwrt{
+        text-align: center;
+    }
+
+    .frequent {
+        width: 78%;
+    }
+
+    .joined{
+        width: 110%;
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    .joined p{
+        font-size: 30px;
+    }
+
+    .enter2{
+        padding: 17px 112px;
+        margin-top: 20px;
+        gap: 60px;
+    }
+
+    #bottom{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bottomdiv{
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 576px) {
+    #navbar, #hero, #features, #bookmark, #extension{
+        padding: 25px 20px 40px;
+       }
+    .herodiv, .bookmarkwrt{
+        width: 90%;
+    }
+
+    .herolink{
+        justify-content: space-between;       
+    }   
+    
+    .frequent {
+        width: 95%;
+    }
+
+    .enter1{
+        padding: 22px 23px 20px 20px;
+    }
+
+    .enter2{
+        padding: 17px 83px;
+    }
+
+    .joined{
+        width: 90%;
+        font-size: 35px;
+    }
+
+    .joined h1{
+        font-size: 30px;
+    }
+
+    .joined p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #navbar, #hero, #features, #bookmark, #extension, #question, #contact{
+        padding: 25px 15px 50px;
+       }
+    .herodiv{
+        width: 90%;
+        margin: auto;
+    }
+
+    .herolink {
+        display: grid;
+        grid-template-columns: repeat( 1fr);
+        justify-content: center;
+        gap: 20px;        
+    }
+
+    .features1, .bookmarkwrt{
+        width: 90%;
+        
+    }
+
+    .extensionhead{
+        width: 100%;
+    }
+
+    .extensionhead p {
+        margin: 30px 31px;
+    }
+
+    .extensionlink{
+        width: 90%;
+    }
+    
+    .frequent{
+        width: 90%;
+    }
+
+    .frequent h1{
+        font-size: 30px;
+    }
+
+    .browser{
+        width: 90%;        
+        
+    }
+
+    .joined{
+        width: 100%;
+    }
+
+    .enter {
+        width: 110%;
+    }
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    #navbar, #hero, #features, #bookmark, #extension, #question, #contact{
+        padding: 25px 5px 50px;
+    }
+
+    .herolink {
+        display: grid;
+        grid-template-columns: repeat( 1fr);
+        justify-content: center;
+        gap: 20px;        
+    }
+
+    .extensionhead p {
+        margin: 30px 10px;
+    }
+
+    .browser{
+        width: 100%;
+    }
+
+    .enter {
+        width: 100%;
+    }
+    
+}
+
 
